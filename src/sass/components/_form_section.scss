@@ -1,0 +1,82 @@
+.form-section {
+  width: 100%;
+  height: auto;
+  padding: 0rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__left {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.3rem;
+    padding: 4rem;
+    border: 1px solid #f2f0f0;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(42, 40, 40, 0.094);
+  }
+  &__right {
+    width: 55%;
+    padding: 6.2rem;
+    padding-bottom: 4rem;
+    border: 1px solid #f2f0f0;
+    box-shadow: 0 0 10px rgba(42, 40, 40, 0.094);
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      //change
+      gap: 3.8rem;
+      position: relative;
+    }
+
+    .form-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      position: relative;
+    }
+    .form-input {
+      width: 43.6rem;
+      height: 4rem;
+      border-radius: 2rem;
+      padding: 0rem 3rem;
+      border: 0.1rem solid #999;
+    }
+    .form-textarea {
+      height: 14rem;
+      resize: none;
+      padding: 2rem;
+    }
+    .charCount {
+      position: absolute;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      color: #999;
+      font-size: 1.2rem;
+    }
+    .btn-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .form-input:focus {
+      outline: 0;
+      border: 0.15rem solid #1fa63a;
+    }
+
+    .form-checkbox {
+      width: 3.5rem;
+      height: 2.3rem;
+      border-radius: 0.3rem;
+    }
+    input[type="checkbox"] {
+      accent-color: #1fa63a;
+    }
+  }
+}

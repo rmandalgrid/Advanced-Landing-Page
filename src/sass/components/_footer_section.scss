@@ -1,0 +1,43 @@
+.footer {
+    position: relative;
+    margin-top: 10rem;
+    &-left {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+      width: 30%;
+    }
+    &__list {
+      color: $color-grey2;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    &-right {
+      display: flex;
+      justify-content: space-between;
+      width: 55%;
+      // margin-right: 12.4rem;
+    }
+    &__description {
+      color: $color-grey3;
+    }
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+  }
+  
+  .footer-blur {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+  }
+  .blur-background--img{
+    display: block;
+  }
+  

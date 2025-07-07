@@ -1,0 +1,87 @@
+.tour{
+    /* margin-top: -45rem; */
+    margin-top: 10rem;
+    width: 100%;
+    padding: 0rem 10rem;
+    display: flex;
+    justify-content:space-between;
+  }
+  .tour-left{
+    width: 50%;
+  } 
+  
+  .h3-house-details{
+    margin: 2rem 0rem;
+  }
+  .house-details-icons-01{
+     display: flex;
+     justify-content: flex-start;
+     gap:13rem;
+     margin: 1rem 1rem;
+  }
+  .house-details-icons-02{
+    display: flex;
+    justify-content: flex-start;
+    gap:15rem;
+    margin: 1rem 1rem;
+  }
+  .details-icon-box{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    gap: 1.5rem;
+  }
+  .ri-3x{
+    color: rgb(104, 102, 102);
+  }
+  .horizontal-line-xl{
+    margin-top: 2rem;
+    border-top: 0.2rem solid #E0E3EB;
+    width: 47.2rem;
+  }
+  .btn-contact{
+    margin-left: 6rem;
+  }
+  
+  .tour-right{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .tour-right-img-main{
+    background-image: url(/images/rectangle17.png);
+    width: 80%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right; /* Align the background image to the right */
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    gap:1rem;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.253));
+  }
+  .tour-right-img-main-01{
+    background-image: url(/images/rectangle18.jpeg);
+    background-size: cover;
+    width: 60%;
+    height: 40%;
+    z-index: 100;
+    margin-left: -7rem;
+    margin-bottom: -5rem;
+  }
+  .tour-right-img-main-02{
+    background-image: url(/images/rectangle19.jpeg);
+    background-size: cover;
+    width: 23%;
+    height: 20%;
+    margin-bottom: -5rem;
+  }
+  .tour-right-img-main-03{
+    background-image: url(/images/rectangle20.jpeg);
+    background-size: cover;
+    width: 23%;
+    height: 20%;
+    margin-bottom: -5rem;
+  }
+  

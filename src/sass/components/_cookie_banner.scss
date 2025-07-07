@@ -1,0 +1,30 @@
+.cookies__section{
+    position: fixed;
+    bottom: 1.5rem;
+    width: 27%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 37%;
+    background: #D1FAE5;
+    border-radius: 5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    padding: 1.3rem;
+    gap:4rem;
+    animation: slide-up 1s ease-in-out;  
+}
+
+.cookies__text{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cookies-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color:#1B1C57;
+
+}

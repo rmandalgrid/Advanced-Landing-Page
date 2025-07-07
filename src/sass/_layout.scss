@@ -1,0 +1,29 @@
+.header {
+  &__blur_background {
+    background-image: url(/backgrounds/Blur-BG.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+  }
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10rem;
+  margin-top: 15rem;
+}
+.find-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12.4rem;
+  padding-bottom: 8rem;
+}
