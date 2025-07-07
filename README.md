@@ -1,93 +1,238 @@
-# Advance Landing Page
+# Advanced Landing Page - Hounter Real Estate
 
+A modern and responsive real estate landing page built with HTML, CSS (SCSS), and JavaScript. This project showcases property listings, testimonials, and provides a seamless user experience for finding dream homes.
 
+## 🚀 Features
 
-## Getting started
+### 🏠 Core Features
+- **Property Search**: Advanced search functionality with location-based filtering
+- **Featured Properties**: Showcase of recommended houses, villas, and apartments
+- **Property Categories**: Filter by House, Villa, and Apartment types
+- **Interactive Property Cards**: Hover effects and detailed property information
+- **Property Tours**: Virtual tour section with detailed house specifications
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+### 🎨 User Interface
+- **Responsive Design**: Fully responsive across all device sizes
+- **Modern UI/UX**: Clean, modern design with smooth animations
+- **Typography Animation**: Dynamic typewriter effect for hero text
+- **Interactive Elements**: Hover effects, smooth scrolling, and engaging animations
+- **Professional Layout**: Grid-based layout with beautiful spacing
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+### 📱 Interactive Components
+- **Image Sliders**: Property showcase with navigation controls
+- **Testimonial Carousel**: Customer reviews with rating system
+- **Newsletter Subscription**: Email subscription with validation
+- **Contact Forms**: Multi-step contact form with validation
+- **Cookie Banner**: GDPR compliant cookie notification
 
-## Add your files
+### 🔧 Additional Features
+- **Partnership Showcase**: Display of partner company logos
+- **Statistics Display**: Live stats showing success metrics
+- **Article Section**: Real estate tips and guides
+- **Social Media Integration**: Links to social platforms
+- **SEO Optimized**: Proper meta tags and semantic HTML
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## 🛠️ Technologies Used
+
+- **HTML5**: Semantic markup
+- **SCSS/CSS3**: Modern styling with variables and mixins
+- **JavaScript (ES6+)**: Interactive functionality
+- **Vite**: Fast build tool and development server
+- **Node-SASS**: CSS preprocessing
+- **Typed.js**: Typewriter animation effects
+- **GSAP**: Animation library
+- **RemixIcon**: Icon library
+
+## 📋 Prerequisites
+
+Before running this project, make sure you have the following installed:
+
+- **Node.js** (version 14 or higher)
+- **npm** (comes with Node.js)
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/Advanced-Landing-Page.git
+cd Advanced-Landing-Page
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Development Server
+
+To start the development server with hot reloading:
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+### 4. SCSS Compilation
+
+To compile SCSS files and watch for changes:
+
+```bash
+npm run scss
+```
+
+### 5. Build for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+### 6. Preview Production Build
+
+To preview the production build locally:
+
+```bash
+npm run dev-server
+```
+
+## 📁 Project Structure
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.griddynamics.net/nigupta/advance-landing-page.git
-git branch -M main
-git push -uf origin main
+Advanced-Landing-Page/
+├── index.html                 # Main HTML file
+├── package.json              # Project dependencies and scripts
+├── src/
+│   ├── js/
+│   │   └── index.js          # Main JavaScript file
+│   ├── sass/
+│   │   ├── main.scss         # Main SCSS file
+│   │   ├── _variables.scss   # SCSS variables
+│   │   ├── _base.scss        # Base styles
+│   │   ├── _layout.scss      # Layout styles
+│   │   ├── _utilities.scss   # Utility classes
+│   │   ├── _animations.scss  # Animation styles
+│   │   └── components/       # Component-specific styles
+│   │       ├── _navbar.scss
+│   │       ├── _header_section.scss
+│   │       ├── _house_section.scss
+│   │       ├── _tour_section.scss
+│   │       ├── _testimonials_section.scss
+│   │       ├── _find-more_section.scss
+│   │       ├── _subscribe_section.scss
+│   │       ├── _form_section.scss
+│   │       ├── _footer_section.scss
+│   │       └── _cookie_banner.scss
+│   └── css/                  # Compiled CSS files
+└── public/
+    ├── images/               # Image assets
+    ├── icons/                # Icon assets
+    └── backgrounds/          # Background images
 ```
 
-## Integrate with your tools
+## 🎯 Available Scripts
 
-- [ ] [Set up project integrations](https://gitlab.griddynamics.net/nigupta/advance-landing-page/-/settings/integrations)
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run dev-server` | Preview production build |
+| `npm run scss` | Compile SCSS and watch for changes |
+| `npm run devserver` | Start live server |
 
-## Collaborate with your team
+## 🌟 Key Sections
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+### 1. **Header Section**
+- Navigation menu with smooth scrolling
+- Hero section with typewriter animation
+- Property search functionality
+- Partnership logos display
 
-## Test and Deploy
+### 2. **Featured Properties**
+- Property cards with hover effects
+- Category filtering (House, Villa, Apartment)
+- Carousel navigation
+- Property details and pricing
 
-Use the built-in continuous integration in GitLab.
+### 3. **Property Tours**
+- Virtual tour showcase
+- Detailed property specifications
+- Agent contact information
+- Interactive property images
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+### 4. **Testimonials**
+- Customer review carousel
+- Rating system
+- User avatars and information
+- Smooth slide transitions
 
-***
+### 5. **Articles Section**
+- Real estate tips and guides
+- Article previews with images
+- Author information
+- Read time estimates
 
-# Editing this README
+### 6. **Newsletter Subscription**
+- Email subscription form
+- Validation and feedback
+- Beautiful background design
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+### 7. **Contact Form**
+- Multi-field contact form
+- Form validation
+- Character counter
+- Privacy policy checkbox
 
-## Suggestions for a good README
+### 8. **Footer**
+- Company information
+- Social media links
+- Contact details
+- Site navigation
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+## 🔧 Customization
 
-## Name
-Choose a self-explaining name for your project.
+### Colors and Styling
+- Modify `src/sass/_variables.scss` to change colors, fonts, and spacing
+- Update component styles in `src/sass/components/`
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+### Content
+- Update property information in `index.html`
+- Replace images in `public/images/` and `public/icons/`
+- Modify testimonials and articles content
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+### Animations
+- Customize animations in `src/sass/_animations.scss`
+- Modify JavaScript animations in `src/js/index.js`
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+## 🤝 Contributing
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+## 📄 License
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+This project is licensed under the ISC License.
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+## 👨‍💻 Author
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+**Niraj Gupta**
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+## 🙏 Acknowledgments
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+- Thanks to all the contributors who helped make this project better
+- Special thanks to the open-source community for the amazing tools and libraries
+- Inspiration from modern real estate websites and design trends
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+## 📞 Support
 
-## License
-For open source projects, say how it is licensed.
+If you have any questions or need help with setup, please open an issue on GitHub or contact the author.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+---
+
+**Happy Coding! 🚀**
