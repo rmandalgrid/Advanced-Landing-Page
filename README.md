@@ -55,7 +55,7 @@ Before running this project, make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Advanced-Landing-Page.git
+git clone https://github.com/rmandalgrid/Advanced-Landing-Page.git
 cd Advanced-Landing-Page
 ```
 
