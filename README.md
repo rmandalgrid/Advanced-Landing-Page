@@ -223,16 +223,3 @@ This project is licensed under the ISC License.
 
 **Roshni Mandal**
 
-## 🙏 Acknowledgments
-
-- Thanks to all the contributors who helped make this project better
-- Special thanks to the open-source community for the amazing tools and libraries
-- Inspiration from modern real estate websites and design trends
-
-## 📞 Support
-
-If you have any questions or need help with setup, please open an issue on GitHub or contact the author.
-
----
-
-**Happy Coding! 🚀**
