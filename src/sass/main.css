@@ -369,7 +369,7 @@ body {
 }
 
 .header__blur_background {
-  background-image: url(/backgrounds/Blur-BG.svg);
+  background-image: url(../public/backgrounds/Blur-BG.svg);
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
@@ -577,7 +577,7 @@ input.middle:valid {
 
 /*right image */
 .right_img {
-  background-image: linear-gradient(27deg, rgba(2, 0, 36, 0.87) 3%, rgba(29, 145, 130, 0.146) 4%, rgba(154, 160, 161, 0) 100%), url(/backgrounds/header_BG.png);
+  background-image: linear-gradient(27deg, rgba(2, 0, 36, 0.87) 3%, rgba(29, 145, 130, 0.146) 4%, rgba(154, 160, 161, 0) 100%), url(../public/backgrounds/header_BG.png);
   width: 100%;
   height: 72rem;
   background-repeat: no-repeat;
@@ -837,32 +837,32 @@ input.middle:valid {
 }
 
 .featured-cards--img01 {
-  background-image: url(/images/rectangle15.jpeg);
+  background-image: url(../public/images/rectangle15.jpeg);
   background-position: center;
 }
 
 .featured-cards--img02 {
-  background-image: url(/images/rectangle16.jpeg);
+  background-image: url(../public/images/rectangle16.jpeg);
   background-position: center;
 }
 
 .featured-cards--img03 {
-  background-image: url(/images/rectangle171.jpeg);
+  background-image: url(../public/images/rectangle171.jpeg);
   background-position: center;
 }
 
 .featured-cards--img04 {
-  background-image: url(/images/rectangle181.jpeg);
+  background-image: url(../public/images/rectangle181.jpeg);
   background-position: center;
 }
 
 .featured-cards--img05 {
-  background-image: url(/images/rectangle19.jpeg);
+  background-image: url(../public/images/rectangle19.jpeg);
   background-position: center;
 }
 
 .featured-cards--img06 {
-  background-image: url(/images/rectangle20.jpeg);
+  background-image: url(../public/images/rectangle20.jpeg);
   background-position: center;
 }
 
@@ -926,7 +926,7 @@ input.middle:valid {
 }
 
 .tour-right-img-main {
-  background-image: url(/images/rectangle17.png);
+  background-image: url(../public/images/rectangle17.png);
   width: 80%;
   height: 100%;
   background-repeat: no-repeat;
@@ -939,7 +939,7 @@ input.middle:valid {
 }
 
 .tour-right-img-main-01 {
-  background-image: url(/images/rectangle18.jpeg);
+  background-image: url(../public/images/rectangle18.jpeg);
   background-size: cover;
   width: 60%;
   height: 40%;
@@ -949,7 +949,7 @@ input.middle:valid {
 }
 
 .tour-right-img-main-02 {
-  background-image: url(/images/rectangle19.jpeg);
+  background-image: url(../public/images/rectangle19.jpeg);
   background-size: cover;
   width: 23%;
   height: 20%;
@@ -957,7 +957,7 @@ input.middle:valid {
 }
 
 .tour-right-img-main-03 {
-  background-image: url(/images/rectangle20.jpeg);
+  background-image: url(../public/images/rectangle20.jpeg);
   background-size: cover;
   width: 23%;
   height: 20%;
@@ -1090,7 +1090,7 @@ input.middle:valid {
 }
 .article__owner--img {
   margin-right: 1.5rem;
-  background-image: url(/assets/img/Avatar1.png);
+  background-image: url(../public/images/Avatar1.png);
   background-position: center;
   background-size: cover;
 }
@@ -1177,7 +1177,7 @@ input.middle:valid {
   padding: 13rem 10rem;
 }
 .subscribe__overlay-img {
-  background-image: url("/images/Img.svg");
+  background-image: url("../public/images/Img.svg");
   width: 100%;
   height: 30rem;
   background-size: cover;
