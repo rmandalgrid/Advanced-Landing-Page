@@ -221,7 +221,7 @@ This project is licensed under the ISC License.
 
 ## 👨‍💻 Author
 
-**Niraj Gupta**
+**Roshni Mandal**
 
 ## 🙏 Acknowledgments
 
