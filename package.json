@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "vite",
     "build": "vite build",
     "dev-server": "vite preview",
     "scss": "node-sass src/sass/main.scss src/css/style.css -w",
