@@ -3,27 +3,48 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Find your dream home with Hounter. Browse houses, villas, and apartments. Get expert tips and connect with trusted real estate partners." />
+    <meta name="keywords" content="real estate, houses, apartments, villas, property, home buying, real estate tips" />
+    <meta name="author" content="Hounter" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Hounter - Find Your Dream Home" />
+    <meta property="og:description" content="Everything you need about finding your place to live will be here, where it will be easier for you" />
+    <meta property="og:image" content="/images/Hero_house.png" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hounter - Find Your Dream Home" />
+    <meta name="twitter:description" content="Everything you need about finding your place to live will be here, where it will be easier for you" />
+    
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="src/sass/main.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
-    <title>Hounter</title>
+    <title>Hounter - Find Your Dream Home | Real Estate Platform</title>
 </head>
 
 <body>
-  <header class="header">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header class="header" role="banner">
     <div class="header__blur_background">
       <nav class="header__top">
           <div class="nav__logo">
-            <img src="icons/Logo (1).svg">
+            <img src="icons/Logo (1).svg" alt="Hounter Logo">
           </div>
           <ul class="nav__links ">
-            <li class="nav__item "><a class="nav__link " href="" id="about_nav_link">About us</a>
+            <li class="nav__item"><a class="nav__link" href="#about" id="about_nav_link">About us</a>
             </li>
-            <li class="nav__item"><a class="nav__link" href="">Article</a></li>
+            <li class="nav__item"><a class="nav__link" href="#articles">Article</a></li>
               <li class="nav__item">
-                <a class="nav__link" href="">Property</a>
+                <a class="nav__link" href="#property">Property</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link nav__link--btn" href="#"
+                <a class="nav__link nav__link--btn" href="#signup"
                   >Sign Up</a
                 >
               </li>
@@ -36,20 +57,20 @@
               </h1>
               <p class="p-text ">Everything you need about finding your place to live will be here, where it will be easier for you</p>
               <div class="search-container">
-                <img src="icons/Group.svg" class="map_icon">
-                <input type="text" class="search-conatiner-box middle" placeholder="Search for the location you want!" tabindex="1">
-                <button class="btn"  id="button">
+                <img src="icons/Group.svg" class="map_icon" alt="" aria-hidden="true">
+                <input type="text" class="search-conatiner-box middle" placeholder="Search for the location you want!" tabindex="1" aria-label="Search for location">
+                <button class="btn" id="button" aria-label="Search for properties">
                   <span>Search</span>
-                  <i class="ri-arrow-right-s-line ri-xl"></i>
+                  <i class="ri-arrow-right-s-line ri-xl" aria-hidden="true"></i>
                 </button>
               </div>
               <div class="partnership-container">
                  <p class="p-text">Our Partnership</p>
                  <div class="partnership-container_logo">
-                  <img src="icons/traveloka_logo 2.svg">
-                  <img src="icons/traveloka_logo 3.svg">
-                  <img src="icons/traveloka_logo 4.svg">
-                  <img src="icons/traveloka_logo 5.svg">
+                  <img src="icons/traveloka_logo 2.svg" alt="Traveloka Partner Logo" loading="lazy">
+                  <img src="icons/traveloka_logo 3.svg" alt="Traveloka Partner Logo" loading="lazy">
+                  <img src="icons/traveloka_logo 4.svg" alt="Traveloka Partner Logo" loading="lazy">
+                  <img src="icons/traveloka_logo 5.svg" alt="Traveloka Partner Logo" loading="lazy">
                  </div>
               </div>
              </div> 
@@ -57,9 +78,9 @@
               <div class="notification-frames">
                  <div class="frame-01 frames">
                    <div class="frame-01--img">
-                    <img src="images/ellipse4.jpeg " alt="" class="frame-01--img-01 img-01 ">
-                    <img src="images/ellipse5.jpeg" alt="" class="frame-01--img-02 img-01">
-                    <img src="images/avatar011.jpeg" alt="" class="frame-01--img-03 img-01">
+                    <img src="images/ellipse4.jpeg" alt="Happy homeowner" class="frame-01--img-01 img-01" loading="lazy">
+                    <img src="images/ellipse5.jpeg" alt="Happy homeowner" class="frame-01--img-02 img-01" loading="lazy">
+                    <img src="images/avatar011.jpeg" alt="Happy homeowner" class="frame-01--img-03 img-01" loading="lazy">
                    </div>
                    <div>
                     <h3 class="h3-text-small">1K+ People</h3>
@@ -67,14 +88,14 @@
                    </div>
                  </div>
                  <div class="frame-02 frames">
-                  <img src="images/img2.jpeg" alt="" class="frame-01--img-01 img-01 ">
+                  <img src="images/img2.jpeg" alt="House for sale" class="frame-01--img-01 img-01" loading="lazy">
                   <div>
                     <h3 class="h3-text-small">56 Houses</h3>
                     <p class="p-text-small">Sold Monthly</p>
                    </div>
                  </div>
                  <div class="frame-03 frames">
-                  <img src="images/ellipse6.jpeg" alt="" class="frame-01--img-01 img-01">
+                  <img src="images/ellipse6.jpeg" alt="Person looking for home" class="frame-01--img-01 img-01" loading="lazy">
                   <div>
                     <h3 class="h3-text-small">4K+</h3>
                     <p class="p-text-small">People Looking for New Homes</p>
@@ -88,35 +109,36 @@
 </header>
 
 <!-- section 01 starts ********************************* -->
-<section class="featured-house">
+<main id="main-content" role="main">
+<section class="featured-house" aria-labelledby="featured-houses-heading">
    <div class="featured-house-top">
      <div class="top-text">
           <span class="top-text--01">
             <div class="horizontal-line"></div>
             <h3 class="label">Our Recommendation</h3>
          </span>
-          <h2 class="h2-text">Featured House</h2>
+          <h2 class="h2-text" id="featured-houses-heading">Featured House</h2>
      </div>
-      <div class="top-buttons" style="position: relative;">
-          <button class="btn btn-border btn--active btn-house" id="btn-house">
-            <i class="ri-home-5-fill ri-xl"></i>
+      <div class="top-buttons">
+          <button class="btn btn-border btn--active btn-house" id="btn-house" aria-label="Filter by House">
+            <i class="ri-home-5-fill ri-xl" aria-hidden="true"></i>
             <span>House</span>
           </button>
-          <button class="btn btn-border btn-villa" id="btn-house" >
-            <i class="ri-building-2-fill ri-xl"></i>
+          <button class="btn btn-border btn-villa" id="btn-villa" aria-label="Filter by Villa">
+            <i class="ri-building-2-fill ri-xl" aria-hidden="true"></i>
             <span>Villa</span>
           </button>
-          <button class="btn btn-border btn-apartment" id="btn-house">
-            <i class="ri-hotel-fill ri-xl"></i>
+          <button class="btn btn-border btn-apartment" id="btn-apartment" aria-label="Filter by Apartment">
+            <i class="ri-hotel-fill ri-xl" aria-hidden="true"></i>
             <span>Apartment</span>
           </button>
       </div>
       <div class="left-right-arrow">
-        <button class="arrow-btn arrow-btn--active" id="left-arrow-btn">
-          <i class="ri-arrow-left-s-line ri-2x"></i>
+        <button class="arrow-btn arrow-btn--active" id="left-arrow-btn" aria-label="Previous properties">
+          <i class="ri-arrow-left-s-line ri-2x" aria-hidden="true"></i>
         </button>
-        <button class="arrow-btn arrow-btn--active" id="right-arrow-btn">
-          <i class="ri-arrow-right-s-line ri-2x"></i>
+        <button class="arrow-btn arrow-btn--active" id="right-arrow-btn" aria-label="Next properties">
+          <i class="ri-arrow-right-s-line ri-2x" aria-hidden="true"></i>
         </button>
       </div>
     </div>
@@ -124,15 +146,15 @@
        <div class="sliders">
         <div class="cards featured-cards">
             <div class="cards-img featured-cards--img01 cursor-scale">
-              <button class="btn cards-btn">
-                <i class="ri-fire-fill ri-xl"></i>
+              <button class="btn cards-btn" aria-label="Popular property">
+                <i class="ri-fire-fill ri-xl" aria-hidden="true"></i>
                 <span>Popular</span>
               </button>
            </div>    
             <h3 class="h3-text-medm">Roselands House</h3>
             <p class="p-text-medm">$ 35.000.000</p>
               <div class="cards-frames">
-                <img src="images/ellipse6.jpeg" alt="" class="img-01">
+                <img src="images/ellipse6.jpeg" alt="Dianne Russell, property agent" class="img-01" loading="lazy">
                  <div>
                   <h3 class="h3-text-small">Dianne Russell</h3>
                   <p class="p-text-small">Manchester, Kentucky</p>
@@ -142,15 +164,15 @@
          <!-- next card -->
          <div class="cards featured-cards">
           <div class="cards-img featured-cards--img02 cursor-scale">
-            <button class="btn cards-btn">
-              <i class="ri-fire-fill ri-xl"></i>
+            <button class="btn cards-btn" aria-label="Popular property">
+              <i class="ri-fire-fill ri-xl" aria-hidden="true"></i>
               <span>Popular</span>
             </button>
          </div>    
           <h3 class="h3-text-medm">Sumolands House</h3>
           <p class="p-text-medm">$ 35.000.000</p>
             <div class="cards-frames">
-              <img src="images/ellipse5.jpeg" alt="" class="img-01">
+              <img src="images/ellipse5.jpeg" alt="Sumolands Russell, property agent" class="img-01" loading="lazy">
                <div>
                 <h3 class="h3-text-small">Sumolands Russell</h3>
                 <p class="p-text-small">Manchester, Kentucky</p>
@@ -161,15 +183,15 @@
             <!-- next card -->
             <div class="cards featured-cards">
               <div class="cards-img featured-cards--img06 cursor-scale">
-                <button class="btn cards-btn">
-                  <i class="ri-fire-fill ri-xl"></i>
+                <button class="btn cards-btn" aria-label="Popular property">
+                  <i class="ri-fire-fill ri-xl" aria-hidden="true"></i>
                   <span>Popular</span>
                 </button>
              </div>    
               <h3 class="h3-text-medm">Roselands House</h3>
               <p class="p-text-medm">$ 35.000.000</p>
                 <div class="cards-frames">
-                  <img src="images/ellipse6.jpeg" alt="" class="img-01">
+                  <img src="images/ellipse6.jpeg" alt="Dianne Russell, property agent" class="img-01" loading="lazy">
                    <div>
                     <h3 class="h3-text-small">Dianne Russell</h3>
                     <p class="p-text-small">Manchester, Kentucky</p>
@@ -180,15 +202,15 @@
                 <!-- next card -->
          <div class="cards featured-cards">
           <div class="cards-img featured-cards--img03 cursor-scale">
-            <button class="btn cards-btn">
-              <i class="ri-fire-fill ri-xl"></i>
+            <button class="btn cards-btn" aria-label="Popular property">
+              <i class="ri-fire-fill ri-xl" aria-hidden="true"></i>
               <span>Popular</span>
             </button>
          </div>    
           <h3 class="h3-text-medm">Roselands House</h3>
           <p class="p-text-medm">$ 35.000.000</p>
             <div class="cards-frames">
-              <img src="images/ellipse6.jpeg" alt="" class="img-01">
+              <img src="images/ellipse6.jpeg" alt="Dianne Russell, property agent" class="img-01" loading="lazy">
                <div>
                 <h3 class="h3-text-small">Dianne Russell</h3>
                 <br>
@@ -199,15 +221,15 @@
        <!-- nextcard -->
         <div class="cards featured-cards">
         <div class="cards-img featured-cards--img04 cursor-scale">
-          <button class="btn cards-btn">
-            <i class="ri-fire-fill ri-xl"></i>
+          <button class="btn cards-btn" aria-label="Popular property">
+            <i class="ri-fire-fill ri-xl" aria-hidden="true"></i>
             <span>Popular</span>
           </button>
        </div>    
         <h3 class="h3-text-medm">Roselands House</h3>
         <p class="p-text-medm">$ 35.000.000</p>
           <div class="cards-frames">
-            <img src="images/ellipse6.jpeg" alt="" class="img-01">
+            <img src="images/ellipse6.jpeg" alt="Dianne Russell, property agent" class="img-01" loading="lazy">
              <div>
               <h3 class="h3-text-small">Dianne Russell</h3>
               <br>
@@ -218,15 +240,15 @@
      <!-- nextcard -->
        <div class="cards featured-cards">
       <div class="cards-img featured-cards--img05 cursor-scale">
-        <button class="btn cards-btn">
-          <i class="ri-fire-fill ri-xl"></i>
+        <button class="btn cards-btn" aria-label="Popular property">
+          <i class="ri-fire-fill ri-xl" aria-hidden="true"></i>
           <span>Popular</span>
         </button>
      </div>    
       <h3 class="h3-text-medm">Roselands House</h3>
       <p class="p-text-medm">$ 35.000.000</p>
         <div class="cards-frames">
-          <img src="images/ellipse6.jpeg" alt="" class="img-01">
+          <img src="images/ellipse6.jpeg" alt="Dianne Russell, property agent" class="img-01" loading="lazy">
            <div>
             <h3 class="h3-text-small">Dianne Russell</h3>
             <br>
@@ -272,15 +294,15 @@
       </div>
       <div class="horizontal-line-xl"></div>
       <div class="cards-frames tour-cards-frames">
-        <img src="images/ellipse6.jpeg" alt="" class="img-01">
+        <img src="images/ellipse6.jpeg" alt="Dianne Russell, property agent" class="img-01" loading="lazy">
          <div>
           <h3 class="h3-text-small">Dianne Russell</h3>
           <br>
           <p class="p-text-small">Manchester, Kentucky</p>
          </div>
     
-         <button class="btn btn-contact">
-          <i class="ri-phone-fill ri-xl"></i>
+         <button class="btn btn-contact" aria-label="Contact Dianne Russell">
+          <i class="ri-phone-fill ri-xl" aria-hidden="true"></i>
           <span>Contact Now</span>
         </button>
         
@@ -313,7 +335,8 @@
         <img
           class="slide__background"
           src="images/Sliderimage1.png"
-          alt=""
+          alt="Testimonial background - My house sold out fast"
+          loading="lazy"
         />
         <div class="slide__bottom-box">
           <h4 class="heading4 slide__content--heading">
@@ -325,13 +348,13 @@
             not get a discount from the sale of my house. Awesome!
           </p>
           <div class="slide__avatar">
-            <img class="slide__avatar--img" src="images/Avatar01.png"></img>
+            <img class="slide__avatar--img" src="images/Avatar01.png" alt="Diane Russel" loading="lazy">
             <div class="slide__avatar--info">
               <span class="slide__avatar--name label-semibold">Diane Russel</span>
               <span class="slide__avatar--location label-small">Manchester, Kentucky</span>
             </div>
             <div class="slide__rating">
-               <img src="icons/Star.svg" alt="" class="slide__rating--star">
+               <img src="icons/Star.svg" alt="Rating star" class="slide__rating--star" loading="lazy">
                <span class="slide__rating--score heading4">4.3</span>
             </div>
           </div>
@@ -344,7 +367,8 @@
         <img
           class="slide__background"
           src="images/Sliderimage2.png"
-          alt=""
+          alt="Testimonial background"
+          loading="lazy"
         />
         <div class="slide__bottom-box">
           <h4 class="heading4 slide__content--heading">
@@ -354,13 +378,13 @@
             Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.
           </p>
           <div class="slide__avatar">
-            <img class="slide__avatar--img" src="images/Avatar03.png"></img>
+            <img class="slide__avatar--img" src="images/Avatar03.png" alt="Jenny Wilson" loading="lazy">
             <div class="slide__avatar--info">
               <span class="slide__avatar--name label-semibold">Jenny Wilson</span>
               <span class="slide__avatar--location label-small">Manager Director</span>
             </div>
             <div class="slide__rating">
-               <img src="icons/Star.svg" alt="" class="slide__rating--star">
+               <img src="icons/Star.svg" alt="Rating star" class="slide__rating--star" loading="lazy">
                <span class="slide__rating--score heading4">4.6</span>
             </div>
           </div>
@@ -374,7 +398,8 @@
         <img
           class="slide__background"
           src="images/Sliderimage3.png"
-          alt=""
+          alt="Testimonial background"
+          loading="lazy"
         />
         <div class="slide__bottom-box">
           <h4 class="heading4 slide__content--heading">
@@ -384,13 +409,13 @@
             By looking for information about what kind of house we want, we managed to get the house we wanted very quickly, and directly connected with the seller to be able to ask about the details, very helpful!
           </p>
           <div class="slide__avatar">
-            <img class="slide__avatar--img" src="images/Avatar04.png"></img>
+            <img class="slide__avatar--img" src="images/Avatar04.png" alt="Ronald Richards" loading="lazy">
             <div class="slide__avatar--info">
               <span class="slide__avatar--name label-semibold">Ronald Richards</span>
               <span class="slide__avatar--location label-small">Head of Marketing</span>
             </div>
             <div class="slide__rating">
-               <img src="icons/Star.svg" alt="" class="slide__rating--star">
+               <img src="icons/Star.svg" alt="Rating star" class="slide__rating--star" loading="lazy">
                <span class="slide__rating--score heading4">4.6</span>
             </div>
           </div>
@@ -404,7 +429,8 @@
         <img
           class="slide__background"
           src="images/Sliderimage1.png"
-          alt=""
+          alt="Testimonial background - My house sold out fast"
+          loading="lazy"
         />
         <div class="slide__bottom-box">
           <h4 class="heading4 slide__content--heading">
@@ -416,13 +442,13 @@
             not get a discount from the sale of my house. Awesome!
           </p>
           <div class="slide__avatar">
-            <img class="slide__avatar--img" src="images/Avatar01.png"></img>
+            <img class="slide__avatar--img" src="images/Avatar01.png" alt="Diane Russel" loading="lazy">
             <div class="slide__avatar--info">
               <span class="slide__avatar--name label-semibold">Diane Russel</span>
               <span class="slide__avatar--location label-small">Manchester, Kentucky</span>
             </div>
             <div class="slide__rating">
-               <img src="icons/Star.svg" alt="" class="slide__rating--star">
+               <img src="icons/Star.svg" alt="Rating star" class="slide__rating--star" loading="lazy">
                <span class="slide__rating--score heading4">4.3</span>
             </div>
           </div>
@@ -437,7 +463,8 @@
         <img
           class="slide__background"
           src="images/Sliderimage2.png"
-          alt=""
+          alt="Testimonial background"
+          loading="lazy"
         />
         <div class="slide__bottom-box">
           <h4 class="heading4 slide__content--heading">
@@ -449,13 +476,13 @@
             not get a discount from the sale of my house. Awesome!
           </p>
           <div class="slide__avatar">
-            <img class="slide__avatar--img" src="images/Avatar03.png"></img>
+            <img class="slide__avatar--img" src="images/Avatar03.png" alt="Jenny Wilson" loading="lazy">
             <div class="slide__avatar--info">
               <span class="slide__avatar--name label-semibold">Diane Russel</span>
               <span class="slide__avatar--location label-small">Manchester, Kentucky</span>
             </div>
             <div class="slide__rating">
-               <img src="icons/Star.svg" alt="" class="slide__rating--star">
+               <img src="icons/Star.svg" alt="Rating star" class="slide__rating--star" loading="lazy">
                <span class="slide__rating--score heading4">4.3</span>
             </div>
           </div>
@@ -470,7 +497,7 @@
 <!-- section 04 starts ******************************-->
 <section class="find-more">
   <div class="blur-background">
-    <img src="images/Blur-BG.png" alt="" class="blur-background--img">
+    <img src="images/Blur-BG.png" alt="" class="blur-background--img" aria-hidden="true" loading="lazy">
   </div>
   <div class="find-more__heading-box">
     <div class="horizontal-line"></div>
@@ -489,35 +516,35 @@
 
         <div class="article-box">
           <div class="article">
-            <img src="images/Article1.png" alt="" class="article__img">
+            <img src="images/Article1.png" alt="Article about buying a house" class="article__img" loading="lazy">
             <div class="article__content">
               <div class="article__owner">
-                <img src="images/Avatar01.png" alt="" class="article__owner--img">
+                <img src="images/Avatar01.png" alt="Diane Russell" class="article__owner--img" loading="lazy">
                 <span class="article__owner--name label">Diane Russell</span>
               </div>
               <h5 class="subtitle">The things we need to check when we want to buy a house</h5>
               <div class="article__time">
-                <img src="icons/clock.svg" alt="" class="article__time--icon">
+                <img src="icons/clock.svg" alt="Reading time" class="article__time--icon" loading="lazy">
                 <span class="article__time--text label">4 min read | 25 Apr 2021</span>
               </div>
             </div>
           </div>
           <div class="article">
-            <img src="images/Article2.png" alt="" class="article__img">
+            <img src="images/Article2.png" alt="Article about house quality" class="article__img" loading="lazy">
             <div class="article__content">
               <div class="article__owner">
-                <img src="images/Avatar03.png" alt="" class="article__owner--img">
+                <img src="images/Avatar03.png" alt="Courtney Henry" class="article__owner--img" loading="lazy">
                 <span class="article__owner--name label">Courtney Henry</span>
               </div>
               <h5 class="subtitle">7 Ways to distinguish the quality of the house we want to buy</h5>
               <div class="article__time">
-                <img src="icons/clock.svg" alt="" class="article__time--icon">
+                <img src="icons/clock.svg" alt="Reading time" class="article__time--icon" loading="lazy">
                 <span class="article__time--text label">6 min read | 24 Apr 2021</span>
               </div>
             </div>
           </div>
           <div class="article">
-            <img src="images/Article3.png" alt="" class="article__img">
+            <img src="images/Article3.png" alt="Article about house quality check" class="article__img" loading="lazy">
             <div class="article__content">
               <div class="article__owner">
                 <img src="images/Avatar04.png" alt="" class="article__owner--img">
@@ -525,7 +552,7 @@
               </div>
               <h5 class="subtitle">The best way to know the quality of the house we want to buy</h5>
               <div class="article__time">
-                <img src="icons/clock.svg" alt="" class="article__time--icon">
+                <img src="icons/clock.svg" alt="Reading time" class="article__time--icon" loading="lazy">
                 <span class="article__time--text label">2 min read | 24 Apr 2021</span>
               </div>
             </div>
@@ -539,43 +566,43 @@
 
         <div class="article-box">
           <div class="article">
-                  <img src="images/Article3.png" alt="" class="article__img">
+                  <img src="images/Article3.png" alt="Article about house quality check" class="article__img" loading="lazy">
                   <div class="article__content">
                     <div class="article__owner">
-                      <img src="images/Avatar03.png" alt="" class="article__owner--img">
+                      <img src="images/Avatar03.png" alt="Courtney Henry" class="article__owner--img" loading="lazy">
                       <span class="article__owner--name label">Darlene Robertson</span>
                     </div>
                     <h5 class="subtitle">The best way to know the quality of the house we want to buy</h5>
                     <div class="article__time">
-                      <img src="icons/clock.svg" alt="" class="article__time--icon">
+                      <img src="icons/clock.svg" alt="Reading time" class="article__time--icon" loading="lazy">
                       <span class="article__time--text label">2 min read | 24 Apr 2021</span>
                     </div>
                   </div>
                 </div>
           <div class="article">
-                  <img src="images/Article2.png" alt="" class="article__img">
+                  <img src="images/Article2.png" alt="Article about house quality" class="article__img" loading="lazy">
                   <div class="article__content">
                     <div class="article__owner">
-                      <img src="images/Avatar01.png" alt="" class="article__owner--img">
+                      <img src="images/Avatar01.png" alt="Diane Russell" class="article__owner--img" loading="lazy">
                       <span class="article__owner--name label">Courtney Henry</span>
                     </div>
                     <h5 class="subtitle">7 Ways to distinguish the quality of the house we want to buy</h5>
                     <div class="article__time">
-                      <img src="icons/clock.svg" alt="" class="article__time--icon">
+                      <img src="icons/clock.svg" alt="Reading time" class="article__time--icon" loading="lazy">
                       <span class="article__time--text label">6 min read | 24 Apr 2021</span>
                     </div>
                   </div>
                 </div>
           <div class="article">
-                  <img src="images/Article1.png" alt="" class="article__img">
+                  <img src="images/Article1.png" alt="Article about buying a house" class="article__img" loading="lazy">
                   <div class="article__content">
                     <div class="article__owner">
-                      <img src="images/Avatar04.png" alt="" class="article__owner--img">
+                      <img src="images/Avatar04.png" alt="Darlene Robertson" class="article__owner--img" loading="lazy">
                       <span class="article__owner--name label">Diane Russell</span>
                     </div>
                     <h5 class="subtitle">The things we need to check when we want to buy a house</h5>
                     <div class="article__time">
-                      <img src="icons/clock.svg" alt="" class="article__time--icon">
+                      <img src="icons/clock.svg" alt="Reading time" class="article__time--icon" loading="lazy">
                       <span class="article__time--text label">4 min read | 25 Apr 2021</span>
                     </div>
                   </div>
@@ -590,7 +617,7 @@
   
   
   <div class="article-right">
-    <img class = "article-right__img" src="images/Rectangle23.png" alt="">
+    <img class="article-right__img" src="images/Rectangle23.png" alt="Featured article about buying a house" loading="lazy">
     <!-- <div class="article-right__img"></div> -->
     <div class="article__content">
       <div class="article__owner">
@@ -612,27 +639,27 @@
 <section class="subscribe">
  <div class="subscribe__overlay-img"> 
    <div class="subscribe__left-section">
-        <img src="images/rectangle121.jpeg" class="img_01">
-        <img src="images/avatar02.jpeg" class="img_02">
-        <img src="images/avatar01.jpeg" class="img_02">
-        <img src="images/rectangle25.jpeg" class="img_03">   
+        <img src="images/rectangle121.jpeg" class="img_01" alt="" aria-hidden="true" loading="lazy">
+        <img src="images/avatar02.jpeg" class="img_02" alt="" aria-hidden="true" loading="lazy">
+        <img src="images/avatar01.jpeg" class="img_02" alt="" aria-hidden="true" loading="lazy">
+        <img src="images/rectangle25.jpeg" class="img_03" alt="" aria-hidden="true" loading="lazy">   
    </div>
    <div class="subscribe__middle-section">
     <h2 class="h2-text">Subscribe For More Info and update from Hounter</h2>
     <div class="search-container search-border-container">
-      <i class="ri-mail-unread-fill ri-2x icon-mail"></i>
-      <input type="text" class="search-conatiner-box middle" placeholder="Your email here" tabindex="1">
-      <button class="btn button">
+      <i class="ri-mail-unread-fill ri-2x icon-mail" aria-hidden="true"></i>
+      <input type="email" class="search-conatiner-box middle" placeholder="Your email here" tabindex="1" aria-label="Email address for subscription">
+      <button class="btn button" type="submit" aria-label="Subscribe to newsletter">
         <span>Subscribe</span>
-        <i class="ri-arrow-right-s-line ri-xl"></i>
+        <i class="ri-arrow-right-s-line ri-xl" aria-hidden="true"></i>
       </button>
     </div>
    </div>
    <div class="subscribe__right-section">
-    <img src="images/rectangle121.jpeg" class="img_01">
-        <img src="images/avatar02.jpeg" class="img_02">
-        <img src="images/avatar01.jpeg" class="img_02">
-        <img src="images/rectangle25.jpeg" class="img_03">
+    <img src="images/rectangle121.jpeg" class="img_01" alt="" aria-hidden="true" loading="lazy">
+        <img src="images/avatar02.jpeg" class="img_02" alt="" aria-hidden="true" loading="lazy">
+        <img src="images/avatar01.jpeg" class="img_02" alt="" aria-hidden="true" loading="lazy">
+        <img src="images/rectangle25.jpeg" class="img_03" alt="" aria-hidden="true" loading="lazy">
    </div>
  </div>
 </section>
@@ -646,21 +673,21 @@
       <p class="p-text">Pick the whose estimate suits you best.</p>
       <div class="horizontal-line"></div>
       <p class="p-text">We then make sure the work i done to your complete satisfaction.</p>
-      <img src="images/create.svg">
+      <img src="images/create.svg" alt="Join Hounter illustration" loading="lazy">
    </div>
   <div class="form-section__right">
     <form class="form">
       <div class="form-group">
-        <label for="name" class="form-label h3-text-small">Name</label>
-        <input type="text" class="form-input middle" id="name" placeholder="Your name" required>
+        <label for="firstName" class="form-label h3-text-small">Name</label>
+        <input type="text" class="form-input middle" id="firstName" name="firstName" placeholder="Your name" required aria-required="true">
       </div>
       <div class="form-group">
-        <label for="name" class="form-label h3-text-small">Surname</label>
-        <input type="text" class="form-input middle" id="name" placeholder="Your Surname" required>
+        <label for="surname" class="form-label h3-text-small">Surname</label>
+        <input type="text" class="form-input middle" id="surname" name="surname" placeholder="Your Surname" required aria-required="true">
       </div>
       <div class="form-group">
-        <label for="name" class="form-label h3-text-small" >Education</label>
-        <select class="form-input middle" id="name" required>
+        <label for="education" class="form-label h3-text-small">Education</label>
+        <select class="form-input middle" id="education" name="education" required aria-required="true">
           <option value="" disabled selected>Select One</option>
           <option value="1">Primary School</option>
           <option value="2">High School</option>
@@ -669,40 +696,41 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="name" class="form-label h3-text-small">Message</label>
-        <textarea class="form-input form-textarea middle"  id="name" placeholder="Your message" required></textarea>
-        <span class="charCount">0/100</span>
+        <label for="message" class="form-label h3-text-small">Message</label>
+        <textarea class="form-input form-textarea middle" id="message" name="message" placeholder="Your message" required aria-required="true" maxlength="100"></textarea>
+        <span class="charCount" aria-live="polite">0/100</span>
       </div>
 
       <div class="form-group">
-        <input type="checkbox" class="form-checkbox" id="name" required>
-        <label for="name" class="form-label p-text-small">I give consent to the processing of my personal data given in the contact form above under the terms and conditions of Grid Dynamics Privacy Policy.</label>
+        <input type="checkbox" class="form-checkbox" id="consent" name="consent" required aria-required="true">
+        <label for="consent" class="form-label p-text-small">I give consent to the processing of my personal data given in the contact form above under the terms and conditions of Grid Dynamics Privacy Policy.</label>
       </div>
-      <button class="btn btn-form " >
+      <button type="submit" class="btn btn-form" aria-label="Submit form">
         Submit
       </button>
     </form>
   </div>
 </section>
 
+</main>
 <!-- footer section .......*********************************.start -->
-<section class="footer">
+<footer class="footer" role="contentinfo">
   <div class="footer-box">
   <div class="footer-blur">
-    <img src="images/Blur-BG-footer.png" alt="" class="blur-background--img">
+    <img src="images/Blur-BG-footer.png" alt="" class="blur-background--img" aria-hidden="true" loading="lazy">
   </div>
   <div class="footer-left">
     <div class="logo">
-      <img src="icons/Rectangle 9.svg" alt="" class="logo__img">
+      <img src="icons/Rectangle 9.svg" alt="Hounter logo" class="logo__img" loading="lazy">
       <span class="logo__name label-semibold">Hounter</span>
     </div>
     <p class="footer__description label">
       We provide information about properties such as houses, villas and apartments to help people find their dream home
     </p>
     <div class="social-media">
-      <img src="icons/FB.svg" alt="" class="facebook">
-      <img src="icons/Twitter.svg" alt="" class="Twitter">
-      <img src="icons/Pinterest.svg" alt="" class="Pinterest">
+      <a href="https://facebook.com" aria-label="Visit our Facebook page" target="_blank" rel="noopener noreferrer"><img src="icons/FB.svg" alt="Facebook" class="facebook" loading="lazy"></a>
+      <a href="https://twitter.com" aria-label="Visit our Twitter page" target="_blank" rel="noopener noreferrer"><img src="icons/Twitter.svg" alt="Twitter" class="Twitter" loading="lazy"></a>
+      <a href="https://pinterest.com" aria-label="Visit our Pinterest page" target="_blank" rel="noopener noreferrer"><img src="icons/Pinterest.svg" alt="Pinterest" class="Pinterest" loading="lazy"></a>
       
     </div>
   </div>
@@ -740,12 +768,12 @@
     <i class="ri-palette-fill ri-3x"></i>
     <p class="p-text">We are using cookies</p>
   </div>
-  <button class="cookies-btn"><i class="ri-close-line ri-2x"></i></button>
+  <button class="cookies-btn" aria-label="Close cookie banner"><i class="ri-close-line ri-2x" aria-hidden="true"></i></button>
 </div> 
-</section>
+</footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script type="module" src="src/js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" defer></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+    <script type="module" src="src/js/index.js" defer></script>
   </body>
 </html>
