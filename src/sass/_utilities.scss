@@ -33,21 +33,6 @@
     border: 0.15rem solid #1fa63a;
 }
 
-.search {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  &__input {
-    margin-right: -4rem;
-    background-color: $color-grey1;
-    border: none;
-    width: 100%;
-  }
-}
-.horizontal-line {
-  border-top: 1px solid $color-secondary;
-  width: 3.2rem;
-}
 
 //logo
 
