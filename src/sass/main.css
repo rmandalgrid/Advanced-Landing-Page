@@ -11,6 +11,21 @@ body {
   font-size: 62.5%;
 }
 
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 @keyframes slide-left {
   0% {
     transform: translateX(0);
@@ -105,50 +120,6 @@ body {
     transform: translate(var(--x), var(--y));
   }
 }
-.search {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.search__input {
-  margin-right: -4rem;
-  background-color: #e0e3eb;
-  border: none;
-  width: 100%;
-}
-
-.horizontal-line {
-  border-top: 1px solid #f59e0b;
-  width: 3.2rem;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-.logo__name {
-  font-weight: 900;
-  font-size: 1.6rem;
-}
-.logo__img {
-  margin-right: 0.8rem;
-}
-
-.btn {
-  font-family: inherit;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1.5rem;
-  background-color: #1fa63a;
-  border: none;
-  padding: 1.25rem 3rem;
-  border-radius: 10rem;
-  cursor: pointer;
-  transition: all 0.3s;
-  color: #fff;
-}
-
 .btn {
   display: flex;
   justify-content: space-between;
@@ -183,23 +154,6 @@ body {
 .form-input-border:focus {
   outline: 0;
   border: 0.15rem solid #1fa63a;
-}
-
-.search {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.search__input {
-  margin-right: -4rem;
-  background-color: #e0e3eb;
-  border: none;
-  width: 100%;
-}
-
-.horizontal-line {
-  border-top: 1px solid #f59e0b;
-  width: 3.2rem;
 }
 
 .logo {
@@ -720,6 +674,7 @@ input.middle:valid {
 }
 
 .top-buttons {
+  position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -926,7 +881,7 @@ input.middle:valid {
 }
 
 .tour-right-img-main {
-  background-image: url(/images/rectangle17.png);
+  background-image: url(/images/rectangle17.svg);
   width: 80%;
   height: 100%;
   background-repeat: no-repeat;
@@ -939,7 +894,7 @@ input.middle:valid {
 }
 
 .tour-right-img-main-01 {
-  background-image: url(/images/rectangle18.jpeg);
+  background-image: url(/images/rectangle18.svg);
   background-size: cover;
   width: 60%;
   height: 40%;
@@ -1090,7 +1045,7 @@ input.middle:valid {
 }
 .article__owner--img {
   margin-right: 1.5rem;
-  background-image: url(/images/Avatar1.png);
+  background-image: url(/assets/img/Avatar1.png);
   background-position: center;
   background-size: cover;
 }
@@ -1401,4 +1356,6 @@ input.middle:valid {
   border: none;
   cursor: pointer;
   color: #1B1C57;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
